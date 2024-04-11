@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
 import { motion, useScroll } from "framer-motion";
-import me from "./../../assets/me.png";
+import me from "./../../assets/me.jpeg";
 const About = () => {
   const ref = useRef(null); // Creating a ref using useRef
 
@@ -78,7 +78,7 @@ const About = () => {
         </div> */}
       </div>
       <div className="right">
-        <img src={me} alt="" />
+        <img className="IMG" src={me} alt="" />
       </div>
     </motion.div>
   );
