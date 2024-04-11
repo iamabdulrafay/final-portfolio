@@ -1,0 +1,77 @@
+.projects {
+  width: 100vw;
+  background: #fff;
+  color: #000;
+  min-height: 100vh;
+}
+.top {
+  padding: 6vw;
+}
+.top > p {
+  text-align: left;
+  color: hwb(0 16% 84%);
+
+  width: 50%;
+}
+.p-flex {
+  width: auto;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  /* margin: 2vw 0 0 0; */
+  padding: 6vw;
+  transition: 0.5s ease-in-out;
+}
+.p-flex:hover {
+  background-color: rgb(236, 138, 53);
+  color: white;
+}
+
+.p-left,
+.p-right {
+  /* width: 50vw; */
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+
+  /* background: red; */
+}
+.p-left p {
+  font-size: 1.4vw;
+}
+
+.p-right img {
+  height: 20vh;
+}
+@media (max-width: 1000px) {
+  .top {
+    padding: 22vw 4vw;
+  }
+  .top > p {
+    width: auto;
+  }
+  .p-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+  }
+  .p-left,
+  .p-right {
+    /* width: 50vw; */
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    /* background: red; */
+  }
+  .p-left p {
+    font-size: 3.4vw;
+  }
+}

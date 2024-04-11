@@ -1,0 +1,92 @@
+.About {
+  display: flex;
+  padding: 0 6vw;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 5vw;
+}
+
+.About .left {
+  width: 50vw;
+  height: 100vh;
+}
+.About .left .Heading {
+  font-weight: 600;
+  color: black;
+}
+.About .right {
+  width: 50vw;
+}
+/* About.css */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  color: #000;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.summary h3,
+.education h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.summary p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+.education p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+@media (max-width: 1100px) {
+  .About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+  .About .left,
+  .About .right {
+    width: auto;
+  }
+  .About .right img {
+    height: 60vh;
+  }
+}
+/* @media (min-width: 700px) and (max-width: 1100px) {
+  .About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+  .About .left,
+  .About .right {
+    width: auto;
+  }
+  .About .right img {
+    height: 60vh;
+  }
+} */
